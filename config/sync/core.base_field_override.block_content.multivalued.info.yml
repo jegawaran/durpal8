@@ -1,0 +1,18 @@
+uuid: e0a3572d-d054-4b46-bf68-b07ef25f617c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.multivalued
+id: block_content.multivalued.info
+field_name: info
+entity_type: block_content
+bundle: multivalued
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

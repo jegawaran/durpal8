@@ -26,4 +26,5 @@ hidden:
   field_last_name: true
   field_profession: true
   field_qualification: true
+  langcode: true
   member_for: true

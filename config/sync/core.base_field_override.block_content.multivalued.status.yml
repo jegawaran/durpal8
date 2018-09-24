@@ -1,0 +1,22 @@
+uuid: 5c987381-aac6-4a5d-9bc5-ae363f6eb526
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.multivalued
+id: block_content.multivalued.status
+field_name: status
+entity_type: block_content
+bundle: multivalued
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

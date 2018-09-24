@@ -1,0 +1,21 @@
+uuid: 8066db51-2e04-42f4-bd25-11eb03a5b589
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_
+    - node.type.product_image
+id: node.product_image.field_product_
+field_name: field_product_
+entity_type: node
+bundle: product_image
+label: 'Product '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

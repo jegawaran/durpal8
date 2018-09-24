@@ -1,0 +1,9 @@
+uuid: bc0ec8b3-3066-4ac2-beb6-c444129bf2a0
+langcode: en
+status: true
+dependencies: {  }
+name: Interest
+vid: interest
+description: 'related to interested '
+hierarchy: 0
+weight: 0

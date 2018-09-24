@@ -1,0 +1,20 @@
+uuid: 79c04850-6924-4965-9e13-8270bb4f6f46
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.interest
+  module:
+    - path
+id: taxonomy_term.interest.path
+field_name: path
+entity_type: taxonomy_term
+bundle: interest
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

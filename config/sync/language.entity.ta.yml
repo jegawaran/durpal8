@@ -1,0 +1,9 @@
+uuid: c420949e-efde-4120-a215-b0ffbc024324
+langcode: en
+status: true
+dependencies: {  }
+id: ta
+label: Tamil
+direction: ltr
+weight: 4
+locked: false

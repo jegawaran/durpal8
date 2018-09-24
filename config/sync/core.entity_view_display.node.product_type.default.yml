@@ -1,0 +1,29 @@
+uuid: a817f0a0-fe88-41d0-8e69-89ac1f7e7e57
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.product_type.body
+    - node.type.product_type
+  module:
+    - text
+    - user
+id: node.product_type.default
+targetEntityType: node
+bundle: product_type
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

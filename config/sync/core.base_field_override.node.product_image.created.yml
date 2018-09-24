@@ -1,0 +1,18 @@
+uuid: b5b5a599-5f30-4fff-94b7-0422bc88e7d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.product_image
+id: node.product_image.created
+field_name: created
+entity_type: node
+bundle: product_image
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
