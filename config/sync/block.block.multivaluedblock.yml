@@ -1,0 +1,25 @@
+uuid: 98243aaa-793d-413e-812a-76f41d78639b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:multivalued:f0a8266a-ffa6-4e3f-a93c-79ee8a7cad31'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: multivaluedblock
+theme: bartik
+region: featured_top
+weight: 0
+provider: null
+plugin: 'block_content:f0a8266a-ffa6-4e3f-a93c-79ee8a7cad31'
+settings:
+  id: 'block_content:f0a8266a-ffa6-4e3f-a93c-79ee8a7cad31'
+  label: 'Multivalued block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

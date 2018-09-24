@@ -1,0 +1,51 @@
+uuid: 507bd1a4-77ff-450f-ac8e-cf131dcc82b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.multivalued
+    - field.field.block_content.multivalued.body
+    - field.field.block_content.multivalued.field_effect
+    - field.field.block_content.multivalued.field_interval
+    - field.field.block_content.multivalued.field_multivalued
+  module:
+    - image
+    - options
+    - text
+id: block_content.multivalued.default
+targetEntityType: block_content
+bundle: multivalued
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_effect:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_interval:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_multivalued:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

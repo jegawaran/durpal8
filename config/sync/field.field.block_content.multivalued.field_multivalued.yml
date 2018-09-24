@@ -1,0 +1,38 @@
+uuid: 631f5004-d939-4b74-ba90-e4863f7e248b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.multivalued
+    - field.storage.block_content.field_multivalued
+  module:
+    - image
+id: block_content.multivalued.field_multivalued
+field_name: field_multivalued
+entity_type: block_content
+bundle: multivalued
+label: Multivalued
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

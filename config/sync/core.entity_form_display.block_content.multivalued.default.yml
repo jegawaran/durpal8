@@ -1,0 +1,59 @@
+uuid: 614417f4-6348-4f6e-bc08-38c7a7c9128e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.multivalued
+    - field.field.block_content.multivalued.body
+    - field.field.block_content.multivalued.field_effect
+    - field.field.block_content.multivalued.field_interval
+    - field.field.block_content.multivalued.field_multivalued
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: block_content.multivalued.default
+targetEntityType: block_content
+bundle: multivalued
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_effect:
+    weight: 29
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_interval:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_multivalued:
+    weight: 27
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

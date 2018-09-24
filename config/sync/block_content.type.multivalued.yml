@@ -1,0 +1,8 @@
+uuid: 08c0e89e-d6c3-4596-ac9e-82cd46ce1f87
+langcode: en
+status: true
+dependencies: {  }
+id: multivalued
+label: Multivalued
+revision: 0
+description: 'image file'
